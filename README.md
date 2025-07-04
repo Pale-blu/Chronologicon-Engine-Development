@@ -231,4 +231,5 @@ Visit: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
 ## 📬 Contact
 
 Built by **Varun Surti**  
-Have questions or feature requests? Open an issue or ping me on [LinkedIn](https://linkedin.com/in/varunsurti) (if public).
+[E-Mail] varunrsurti@gmail.com
+[LinkedIn] https://www.linkedin.com/in/varun-surti-2aa918195
