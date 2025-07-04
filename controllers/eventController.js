@@ -3,9 +3,14 @@ const { Pool } = require('pg');
 const path = require('path');
 const { parseFile } = require('../utils/parser');
 const { v4: uuidv4 } = require('uuid');
+require('dotenv').config();
 
 const pool = new Pool({
-    connectionString: 'postgresql://postgres:admin@localhost:5432/chronologicon'
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT
 });
 
 const jobs = {};
